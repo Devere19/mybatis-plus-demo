@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
  * @Created by abner.guo
  */
 @Service
-//@DS("master") //指定操作的数据源，master为user表
+@DS("master") //指定操作的数据源，master为user表
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {
 
 
