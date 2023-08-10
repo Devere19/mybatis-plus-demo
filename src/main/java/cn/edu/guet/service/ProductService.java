@@ -11,7 +11,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @Date 2023/7/29 14:01
  * @Created by abner.guo
  */
-@DS("slave_1")
+//@DS("slave_1")
 public interface ProductService extends IService<Product> {
 
 
